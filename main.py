@@ -7,6 +7,7 @@ import pyperclip
 
 # Password Generator Project
 
+
 def generate_password():
     password_entry.delete(0, END)
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
