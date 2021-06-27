@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b87aa41-ba33-4df0-aa46-5251112ef641" name="Default Changelist" comment="" />
+    <list default="true" id="2b87aa41-ba33-4df0-aa46-5251112ef641" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwords.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,12 +49,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\CNFis\PycharmProjects\password-manager" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\CNFis\PycharmProjects\password-manager" />
       <recent name="C:\Users\CNFis\PycharmProjects\password-manager\Images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CNFis\PycharmProjects\password-manager" />
     </key>
   </component>
   <component name="RunManager">
@@ -140,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624752662239</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changed data structure&#10;changed the data structure of the way that passwords are saved in the file. it should be noted that the program expects data to be present first, hence the dummy data inside of the json file.">
+      <created>1624752748842</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624752748842</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,42 +163,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="Changed data structure&#10;changed the data structure of the way that passwords are saved in the file. it should be noted that the program expects data to be present first, hence the dummy data inside of the json file." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624752186770">
+    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624755950507">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752186770" />
-    <state x="494" y="101" key="CommitChangelistDialog2" timestamp="1624752661506">
+    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624755950507" />
+    <state x="27" y="101" key="CommitChangelistDialog2" timestamp="1624752748422">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="494" y="101" key="CommitChangelistDialog2/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752661506" />
+    <state x="27" y="101" key="CommitChangelistDialog2/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752748422" />
     <state x="620" y="246" key="FileChooserDialogImpl" timestamp="1624671971547">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="246" key="FileChooserDialogImpl/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624671971547" />
-    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1624752687397">
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1624755920387">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.bottom/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752687397" />
-    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1624752687396">
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624755920387" />
+    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1624755920387">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.center/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752687396" />
-    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1624752687396">
+    <state width="1659" height="272" key="GridCell.Tab.0.center/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624755920387" />
+    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1624755920387">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.left/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752687396" />
-    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1624752687396">
+    <state width="1659" height="272" key="GridCell.Tab.0.left/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624755920387" />
+    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1624755920387">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.right/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752687396" />
+    <state width="1659" height="272" key="GridCell.Tab.0.right/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624755920387" />
     <state x="552" y="221" key="MultipleFileMergeDialog" timestamp="1624672526386">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="552" y="221" key="MultipleFileMergeDialog/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624672526386" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1624752704086">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1624752755679">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752704086" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752755679" />
     <state x="536" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1624749421473">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
