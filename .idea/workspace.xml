@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b87aa41-ba33-4df0-aa46-5251112ef641" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/CNFishead/PasswordManager.git" />
+      </set>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\CNFis\PycharmProjects\password-manager\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uSoiGMTcPPLbISUBhc7HHeU5mN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CNFis\PycharmProjects\password-manager" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CNFis\PycharmProjects\password-manager" />
+      <recent name="C:\Users\CNFis\PycharmProjects\password-manager\Images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="password-manager" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b87aa41-ba33-4df0-aa46-5251112ef641" name="Default Changelist" comment="" />
+      <created>1624668476969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624668476969</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1624672010373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624672010373</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added passwords.txt to gitignore">
+      <created>1624672401789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624672401789</updated>
+    </task>
+    <task id="LOCAL-00003" summary="testing changes to gitignore">
+      <created>1624672496671</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624672496671</updated>
+    </task>
+    <task id="LOCAL-00004" summary="testing changes to gitignore">
+      <created>1624672556727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624672556727</updated>
+    </task>
+    <task id="LOCAL-00005" summary="testing changes to gitignore">
+      <created>1624672689765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624672689765</updated>
+    </task>
+    <task id="LOCAL-00006" summary="testing changes to gitignore">
+      <created>1624672736667</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624672736667</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed data structure&#10;changed the data structure of the way that passwords are saved in the file. it should be noted that the program expects data to be present first, hence the dummy data inside of the json file.">
+      <created>1624752662239</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624752662239</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="added passwords.txt to gitignore" />
+    <MESSAGE value="testing changes to gitignore" />
+    <MESSAGE value="Changed data structure&#10;changed the data structure of the way that passwords are saved in the file. it should be noted that the program expects data to be present first, hence the dummy data inside of the json file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed data structure&#10;changed the data structure of the way that passwords are saved in the file. it should be noted that the program expects data to be present first, hence the dummy data inside of the json file." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624752186770">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752186770" />
+    <state x="494" y="101" key="CommitChangelistDialog2" timestamp="1624752661506">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="494" y="101" key="CommitChangelistDialog2/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752661506" />
+    <state x="620" y="246" key="FileChooserDialogImpl" timestamp="1624671971547">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="620" y="246" key="FileChooserDialogImpl/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624671971547" />
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1624752687397">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752687397" />
+    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1624752687396">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.center/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752687396" />
+    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1624752687396">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.left/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752687396" />
+    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1624752687396">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1659" height="272" key="GridCell.Tab.0.right/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752687396" />
+    <state x="552" y="221" key="MultipleFileMergeDialog" timestamp="1624672526386">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="552" y="221" key="MultipleFileMergeDialog/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624672526386" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1624752704086">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752704086" />
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1624749421473">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624749421473" />
+    <state x="649" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624672650051">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="649" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624672650051" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1624668538971">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624668538971" />
+  </component>
+</project>
