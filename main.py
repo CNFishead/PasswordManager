@@ -87,7 +87,6 @@ def load():
             else:
                 messagebox.showinfo(title="Your Stored information: ",
                                     message=f"Email: {websites[web]['email']} \nPassword: {websites[web]['password']}")
-
     except EXCEPTION:
         print(EXCEPTION)
 
@@ -111,16 +110,16 @@ password_label = Label(text="Password:")
 password_label.grid(row=3, column=0)
 
 # Entries
-website_entry = Entry(width=21)
+website_entry = Entry(width=31)
 website_entry.grid(row=1, column=1)
 website_entry.focus()
-email_entry = Entry(width=35)
+email_entry = Entry(width=51)
 email_entry.grid(row=2, column=1, columnspan=2)
-password_entry = Entry(width=21)
+password_entry = Entry(width=31)
 password_entry.grid(row=3, column=1)
 
 # Buttons
-search_button = Button(text="Search", width=13, command=load)
+search_button = Button(text="Search", width=16, command=load)
 search_button.grid(row=1, column=2)
 generate_password_button = Button(text="Generate Password", command=generate_password)
 generate_password_button.grid(row=3, column=2)
