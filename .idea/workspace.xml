@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b87aa41-ba33-4df0-aa46-5251112ef641" name="Default Changelist" comment="">
+    <list default="true" id="2b87aa41-ba33-4df0-aa46-5251112ef641" name="Default Changelist" comment="Load email password&#10;added in feature to load a previously saved email password combination, now if the user wants to know if they have a saved password, all they have to do is&#10;type the name of the website into the textbox, and itll search the json file for an object that relates to it, if it finds it, itll display the email/password&#10;for the user, if it doesnt, itll let the user know that it isnt saved.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passwords.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624752748842</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Load email password&#10;added in feature to load a previously saved email password combination, now if the user wants to know if they have a saved password, all they have to do is&#10;type the name of the website into the textbox, and itll search the json file for an object that relates to it, if it finds it, itll display the email/password&#10;for the user, if it doesnt, itll let the user know that it isnt saved.">
+      <created>1624756309102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624756309102</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,49 +165,54 @@
     <MESSAGE value="added passwords.txt to gitignore" />
     <MESSAGE value="testing changes to gitignore" />
     <MESSAGE value="Changed data structure&#10;changed the data structure of the way that passwords are saved in the file. it should be noted that the program expects data to be present first, hence the dummy data inside of the json file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed data structure&#10;changed the data structure of the way that passwords are saved in the file. it should be noted that the program expects data to be present first, hence the dummy data inside of the json file." />
+    <MESSAGE value="Load email password&#10;added in feature to load a previously saved email password combination, now if the user wants to know if they have a saved password, all they have to do is&#10;type the name of the website into the textbox, and itll search the json file for an object that relates to it, if it finds it, itll display the email/password&#10;for the user, if it doesnt, itll let the user know that it isnt saved." />
+    <option name="LAST_COMMIT_MESSAGE" value="Load email password&#10;added in feature to load a previously saved email password combination, now if the user wants to know if they have a saved password, all they have to do is&#10;type the name of the website into the textbox, and itll search the json file for an object that relates to it, if it finds it, itll display the email/password&#10;for the user, if it doesnt, itll let the user know that it isnt saved." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="601" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624757439829">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="601" y="308" key="#com.intellij.fileTypes.FileTypeChooser/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624757439829" />
     <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1624755950507">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="570" y="252" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624755950507" />
-    <state x="27" y="101" key="CommitChangelistDialog2" timestamp="1624752748422">
+    <state x="27" y="101" key="CommitChangelistDialog2" timestamp="1624756569256">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="27" y="101" key="CommitChangelistDialog2/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752748422" />
+    <state x="27" y="101" key="CommitChangelistDialog2/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624756569256" />
     <state x="620" y="246" key="FileChooserDialogImpl" timestamp="1624671971547">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="246" key="FileChooserDialogImpl/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624671971547" />
-    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1624755920387">
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom" timestamp="1624757530231">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.bottom/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624755920387" />
-    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1624755920387">
+    <state width="1659" height="272" key="GridCell.Tab.0.bottom/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624757530231" />
+    <state width="1659" height="272" key="GridCell.Tab.0.center" timestamp="1624757530231">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.center/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624755920387" />
-    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1624755920387">
+    <state width="1659" height="272" key="GridCell.Tab.0.center/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624757530231" />
+    <state width="1659" height="272" key="GridCell.Tab.0.left" timestamp="1624757530230">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.left/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624755920387" />
-    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1624755920387">
+    <state width="1659" height="272" key="GridCell.Tab.0.left/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624757530230" />
+    <state width="1659" height="272" key="GridCell.Tab.0.right" timestamp="1624757530231">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="272" key="GridCell.Tab.0.right/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624755920387" />
+    <state width="1659" height="272" key="GridCell.Tab.0.right/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624757530231" />
     <state x="552" y="221" key="MultipleFileMergeDialog" timestamp="1624672526386">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="552" y="221" key="MultipleFileMergeDialog/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624672526386" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1624752755679">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1624756311367">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624752755679" />
-    <state x="536" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1624749421473">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624756311367" />
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1624828926259">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="536" y="329" key="com.intellij.ide.util.TipDialog/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624749421473" />
+    <state x="536" y="329" key="com.intellij.ide.util.TipDialog/1680.33.1280.984/0.0.1680.1010@0.0.1680.1010" timestamp="1624828926259" />
     <state x="649" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624672650051">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

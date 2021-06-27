@@ -41,7 +41,8 @@ def save():
     if len(website) == 0 or len(password) == 0:
         messagebox.showinfo(title="Blank Entries", message="Please make sure to insert both a Website and a Password.")
     if "@" not in email or ".com" not in email:
-        messagebox.showinfo(title="incorrect email formatting", message="Your email is not in the correct format. \nPlease correct this to continue")
+        messagebox.showinfo(title="incorrect email formatting",
+                            message="Your email is not in the correct format. \nPlease correct this to continue")
     else:
         try:
             with open("passwords.json", "r") as file:
@@ -67,9 +68,10 @@ def save():
             with open("passwords.json", "w") as file:
                 # Finally write all the data back to the file.
                 json.dump(data, file, indent=4)
-                # Delete current values
-                website_entry.delete(0, END)
-                password_entry.delete(0, END)
+        finally:
+            # Delete current values
+            website_entry.delete(0, END)
+            password_entry.delete(0, END)
 
 
 def load():
@@ -80,13 +82,16 @@ def load():
 
             if web not in websites:
                 messagebox.showinfo(title="Not Found",
-                                    message=f'The website your looking for isnt in the database.\ndid you mean to add it?')
+                                    message=f'The website your looking for isnt in the database.' +
+                                            '\ndid you mean to add it?')
             else:
                 messagebox.showinfo(title="Your Stored information: ",
                                     message=f"Email: {websites[web]['email']} \nPassword: {websites[web]['password']}")
 
     except EXCEPTION:
         print(EXCEPTION)
+
+
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Password Manager")
@@ -97,7 +102,7 @@ logo_img = PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=logo_img)
 canvas.grid(row=0, column=1)
 
-#Labels
+# Labels
 website_label = Label(text="Website:")
 website_label.grid(row=1, column=0)
 email_label = Label(text="Email/Username:")
@@ -105,7 +110,7 @@ email_label.grid(row=2, column=0)
 password_label = Label(text="Password:")
 password_label.grid(row=3, column=0)
 
-#Entries
+# Entries
 website_entry = Entry(width=21)
 website_entry.grid(row=1, column=1)
 website_entry.focus()
